@@ -87,10 +87,11 @@ export default function TextArea({ mode }) {
         <p>{readingTimeMinutes} Minutes Read</p>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5" style={{paddingBottom : "60px"}}>
         <h3>Your Text Preview</h3>
         <p className="mb-0">{text === "" ? "Nothing to preview" : text}</p>
       </div>
+
     </div>
   );
 }
